@@ -1,3 +1,4 @@
+import 'package:example_app/common_widgets/custom_raised_button.dart';
 import 'package:flutter/material.dart';
 
 class SignInPage extends StatelessWidget {
@@ -29,7 +30,7 @@ class SignInPage extends StatelessWidget {
             ),
           ),
           SizedBox(height: 8.0),
-          RaisedButton(
+          CustomRaisedButton(
             child: Text(
               'Sign in with Google',
               style: TextStyle(
@@ -38,11 +39,7 @@ class SignInPage extends StatelessWidget {
               ),
             ),
             color: Colors.white,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.all(
-                Radius.circular(4.0),
-              ),
-            ),
+            borderRadius: 4.0,
             onPressed: () {},
           ),
         ],
