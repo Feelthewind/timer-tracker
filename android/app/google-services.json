@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "374568101319",
+    "firebase_url": "https://time-tracker-flutter-cou-62ed2.firebaseio.com",
+    "project_id": "time-tracker-flutter-cou-62ed2",
+    "storage_bucket": "time-tracker-flutter-cou-62ed2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374568101319:android:5452f867b8a158d1c2a5e2",
+        "android_client_info": {
+          "package_name": "com.example.example_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374568101319-k417phrvon178gfuqj3jr1vd2brupnd5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.example_app",
+            "certificate_hash": "cbeeeb89a6912f3c397ea9019ae98c581bfbcde0"
+          }
+        },
+        {
+          "client_id": "374568101319-gsqibv079o44vmrg0pc6r5po9v4hfbqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE915rcatHbi0KiuqpzFWkduOSTvhyMXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374568101319-gsqibv079o44vmrg0pc6r5po9v4hfbqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374568101319:android:0efb49df9a23a83ac2a5e2",
+        "android_client_info": {
+          "package_name": "com.example.time_tracker_flutter_course"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374568101319-5dakaouu845jt3etbppoel5epruk587g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.time_tracker_flutter_course",
+            "certificate_hash": "4ee6a1c01706fd5e9c5c483be5e85844205c00ec"
+          }
+        },
+        {
+          "client_id": "374568101319-gsqibv079o44vmrg0pc6r5po9v4hfbqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE915rcatHbi0KiuqpzFWkduOSTvhyMXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374568101319-gsqibv079o44vmrg0pc6r5po9v4hfbqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
