@@ -1,3 +1,4 @@
+import 'package:example_app/app/home_page.dart';
 import 'package:example_app/app/sign_in/sign_in_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -23,6 +24,6 @@ class _LandingPageState extends State<LandingPage> {
         onSignIn: _updateUser,
       );
     }
-    return Container();
+    return HomePage();
   }
 }
