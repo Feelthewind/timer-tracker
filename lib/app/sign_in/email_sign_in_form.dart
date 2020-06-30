@@ -1,3 +1,4 @@
+import 'package:example_app/common_widgets/form_submit_button.dart';
 import 'package:flutter/material.dart';
 
 class EmailSignInForm extends StatelessWidget {
@@ -29,8 +30,8 @@ class EmailSignInForm extends StatelessWidget {
         obscureText: true,
       ),
       SizedBox(height: 8.0),
-      RaisedButton(
-        child: Text('Sign in'),
+      FormSubmitButton(
+        text: 'Sign in',
         onPressed: () {},
       ),
       SizedBox(height: 8.0),
