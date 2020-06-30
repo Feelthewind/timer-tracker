@@ -14,7 +14,6 @@ class CustomRaisedButton extends StatelessWidget {
   final double height;
   final VoidCallback onPressed;
 
-  @override
   Widget build(BuildContext context) {
     return SizedBox(
       height: height,
