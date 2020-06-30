@@ -2,6 +2,14 @@ import 'package:example_app/common_widgets/form_submit_button.dart';
 import 'package:flutter/material.dart';
 
 class EmailSignInForm extends StatelessWidget {
+
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
+
+  void _submit() {
+    print('email: ${_emailController.text}, password: ${_passwordController.text}');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -17,13 +25,16 @@ class EmailSignInForm extends StatelessWidget {
   List<Widget> _buildChildren() {
     return [
       TextField(
+        controller: _emailController,
         decoration: InputDecoration(
           labelText: 'Email',
           hintText: 'test@test.com',
         ),
+        onChanged: (value) => print(value),
       ),
       SizedBox(height: 8.0),
       TextField(
+        controller: _passwordController,
         decoration: InputDecoration(
           labelText: 'Password',
         ),
